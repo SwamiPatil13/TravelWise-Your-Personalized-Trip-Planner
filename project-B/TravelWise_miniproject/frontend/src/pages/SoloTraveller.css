@@ -1,0 +1,106 @@
+.solo-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #181818;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.solo-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.solo-error {
+  background: #ffdddd;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+.solo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.solo-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.solo-form-group label {
+  font-weight: 500;
+}
+.solo-form-group input,
+.solo-form-group textarea {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #333;
+  background: #222;
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+.solo-btn {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 0;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+.solo-btn:hover {
+  background: #1d4ed8;
+}
+.solo-posts {
+  margin-top: 32px;
+}
+.solo-posts-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.solo-post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.delete-post-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+.delete-post-btn:hover {
+  background: #333;
+  color: #ef4444;
+}
+.solo-post {
+  background: #232323;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  transition: transform 0.2s;
+}
+.solo-post:hover {
+  transform: translateY(-5px);
+}
+.solo-post-date {
+  font-size: 0.95em;
+  color: #a3a3a3;
+} 
